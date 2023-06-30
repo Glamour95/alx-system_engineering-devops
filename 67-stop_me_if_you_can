@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Send termination signal to the '7-highlander' process
+pkill -f "7-highlander"
+
