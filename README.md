@@ -1,7 +1,8 @@
-#process and signals
+# Processes and Signals
 
-0. What is my PID
-Mandatory
+This repository contains Bash scripts and a C program related to processes and signals.
+
+## 0. What is my PID
 
 This Bash script displays its own PID.
 sylvain@ubuntu$ ./0-what-is-my-pid
@@ -9,8 +10,8 @@ sylvain@ubuntu$ ./0-what-is-my-pid
 sylvain@ubuntu$
 File: 0-what-is-my-pid
 
-1. List your processes
-Mandatory
+## 1. List your processes
+
 
 This Bash script displays a list of currently running processes. It shows all processes for all users, including those which might not have a TTY. The output is displayed in a user-oriented format and shows the process hierarchy.
 
@@ -31,10 +32,6 @@ root        14  0.0  0.0      0     0 ?        S    Feb13   0:00  \_ [kdevtmpfs]
 root        15  0.0  0.0      0     0 ?        S<   Feb13   0:00  \_ [netns]
 root        16  0.0  0.0      0     0 ?        S<   Feb13   0:00  \_ [writeback]
 root        17  0.0  0.0      0     0 ?        S<   Feb13   0:00
-
-# Processes and Signals
-
-This repository contains Bash scripts and a C program related to processes and signals.
 
 ## 2-show_your_bash_pid
 
