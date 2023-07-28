@@ -1,4 +1,4 @@
-![image](https://github.com/Glamour95/alx-system_engineering-devops/assets/118850729/10e862f9-152d-440b-9bac-4513fb4bf0e1)
+
 https://docs.google.com/document/d/1VFBtY_jjd2S1jXl-eOhAEcTYQBr9hDXLdj4K_uJfLnQ/edit?usp=sharing
 
 **Design of a One-Server Web Infrastructure for www.foobar.com**
