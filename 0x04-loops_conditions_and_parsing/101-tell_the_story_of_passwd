@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+while IFS=':' read -r username _ gid _ homedir shell; do
+    read -r _ _ _ _ _ _ password _ <<< "$(grep "^$username:" /etc/shadow)"
+
+    echo "The user $username is part of the $gid gang, lives in $homedir and rides $shell. $gid's place is protected by the passcode $password, more info about the user here: $username"
+done < /etc/passwd
+

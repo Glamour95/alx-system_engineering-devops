@@ -1,0 +1,13 @@
+# UDP and TCP
+
+### Which statement is correct for the TCP box?
+
+- It is a protocol that is transferring data in a fast way and guarantees data delivery.
+
+### Which statement is correct for the UDP box?
+
+- It is a protocol that is transferring data in a fast way and might lose data along the process.
+
+### Which statement is correct for the TCP worker?
+
+- Have you received boxes x, y, z?
