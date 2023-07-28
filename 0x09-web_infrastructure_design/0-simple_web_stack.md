@@ -1,3 +1,4 @@
+![image](https://github.com/Glamour95/alx-system_engineering-devops/assets/118850729/063fefa7-15f5-4922-a8ae-f61aef93f2db)
 
 https://docs.google.com/document/d/1VFBtY_jjd2S1jXl-eOhAEcTYQBr9hDXLdj4K_uJfLnQ/edit?usp=sharing
 
