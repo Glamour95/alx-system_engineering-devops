@@ -1,0 +1,8 @@
+For the TCP box:
+- It is a protocol that is transferring data in a slow way but surely.
+
+For the UDP box:
+- It is a protocol that is transferring data in a fast way and might lose data along in the process.
+
+For the TCP worker:
+- "May I increase the rate at which I am sending you boxes?"
