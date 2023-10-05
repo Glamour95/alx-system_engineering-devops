@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get the list of network interfaces
+interfaces=$(ifconfig -a | grep '^[a-zA-Z]' | awk '{print $1}')
+
+# Loop through each network interface
+for interface in $interfaces
+do
+    # Get the IPv4 addresses for the interface
+    ipv4_addresses=$(ifconfig $interface | grep -oP 'inet\s+\K[0-9.]+')
+
+    # Display the interface name and its IPv4 addresses
+    echo "Interface: $interface"
+    echo "IPv4 Addresses: $ipv4_addresses"
+    echo
+done
